@@ -4,8 +4,6 @@ abstract class CounterEvent {}
 
 class Increment extends CounterEvent {}
 
-class Decrement extends CounterEvent {}
-
 class CounterState {
   final int counterValue;
   CounterState(this.counterValue);
